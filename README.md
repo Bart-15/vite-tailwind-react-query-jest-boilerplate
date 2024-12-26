@@ -9,6 +9,7 @@ A boilerplate template for building React applications with the following techno
 - **React Testing Library (RTL)**: Tools for testing React components.
 - **Jest**: A delightful JavaScript testing framework.
 - **React Query**: A powerful data-fetching library.
+- **Tanstack Router**: A fully type-safe React router with built-in data fetching, stale-while revalidate caching and first-class search-param APIs.
 - **ESLint and Prettier**: Linting and code formatting tools to maintain code quality.
 
 ---
