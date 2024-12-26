@@ -5,6 +5,7 @@ import { useState } from 'react';
 import viteLogo from '/vite.svg';
 import reactLogo from '@/assets/react.svg';
 import SampleComponent from '@/components/SampleComponent';
+import './index.css';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +20,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + Tailwind + React Query + Jest</h1>
+      <h1 className="text-xl">Vite + React + Tailwind + React Query + Jest</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
