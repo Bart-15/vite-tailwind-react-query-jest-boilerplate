@@ -40,13 +40,11 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
-    overrides: [
-      {
-        files: ['*.test.js', '*.test.jsx', '*.test.ts', '*.test.tsx'], // Target test files
-        rules: {
-          'max-lines-per-function': 'off', // Disable the rule for test files
-        },
-      },
-    ],
+  },
+  {
+    files: ['*.test.js', '*.test.jsx', '*.test.ts', '*.test.tsx'], // Target test files
+    rules: {
+      'max-lines-per-function': 'off', // Disable the rule for test files
+    },
   },
 );

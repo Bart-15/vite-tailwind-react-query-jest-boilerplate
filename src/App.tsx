@@ -1,11 +1,11 @@
 import './App.css';
+import './index.css';
 
 import { useState } from 'react';
 
 import viteLogo from '/vite.svg';
 import reactLogo from '@/assets/react.svg';
 import SampleComponent from '@/components/SampleComponent';
-import './index.css';
 
 function App() {
   const [count, setCount] = useState(0);
